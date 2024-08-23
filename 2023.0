@@ -1,0 +1,34 @@
+Collecting openvino-dev
+  Obtaining dependency information for openvino-dev from https://files.pythonhosted.org/packages/ad/41/f6fd676dd043ab5ac82ff0f2d1dc8467bc0d4c5d6d6b36fe95771bd2e60d/openvino_dev-2023.0.1-11005-py3-none-any.whl.metadata
+  Downloading openvino_dev-2023.0.1-11005-py3-none-any.whl.metadata (17 kB)
+Requirement already satisfied: addict>=2.4.0 in c:\users\administrator\appdata\local\programs\python\python310\lib\site-packages (from openvino-dev) (2.4.0)
+Requirement already satisfied: defusedxml>=0.7.1 in c:\users\administrator\appdata\local\programs\python\python310\lib\site-packages (from openvino-dev) (0.7.1)
+Collecting jstyleson>=0.0.2 (from openvino-dev)
+  Downloading jstyleson-0.0.2.tar.gz (2.0 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: networkx<=2.8.8 in c:\users\administrator\appdata\local\programs\python\python310\lib\site-packages (from openvino-dev) (2.8.8)
+Requirement already satisfied: numpy>=1.16.6 in c:\users\administrator\appdata\local\programs\python\python310\lib\site-packages (from openvino-dev) (1.23.5)
+Requirement already satisfied: opencv-python in c:\users\administrator\appdata\local\programs\python\python310\lib\site-packages (from openvino-dev) (4.7.0.72)
+Collecting openvino-telemetry>=2022.1.0 (from openvino-dev)
+  Obtaining dependency information for openvino-telemetry>=2022.1.0 from https://files.pythonhosted.org/packages/cc/30/c6292b5b1178c1eda3ea9a54aece475ec736ff951fa053aac3d8053dd380/openvino_telemetry-2023.1.1-py3-none-any.whl.metadata
+  Downloading openvino_telemetry-2023.1.1-py3-none-any.whl.metadata (2.3 kB)
+Requirement already satisfied: pillow>=8.1.2 in c:\users\administrator\appdata\local\programs\python\python310\lib\site-packages (from openvino-dev) (9.3.0)
+Requirement already satisfied: pyyaml>=5.4.1 in c:\users\administrator\appdata\local\programs\python\python310\lib\site-packages (from openvino-dev) (6.0)
+Requirement already satisfied: requests>=2.25.1 in c:\users\administrator\appdata\local\programs\python\python310\lib\site-packages (from openvino-dev) (2.31.0)
+Collecting texttable>=1.6.3 (from openvino-dev)
+  Downloading texttable-1.6.7-py2.py3-none-any.whl (10 kB)
+Requirement already satisfied: tqdm>=4.54.1 in c:\users\administrator\appdata\local\programs\python\python310\lib\site-packages (from openvino-dev) (4.65.0)
+Collecting openvino==2023.0.1 (from openvino-dev)
+  Obtaining dependency information for openvino==2023.0.1 from https://files.pythonhosted.org/packages/9e/8b/85b73997bed01357e6e19a526ebfb9ccf202e1674eef551d1d0ec7f5d966/openvino-2023.0.1-11005-cp310-cp310-win_amd64.whl.metadata
+  Downloading openvino-2023.0.1-11005-cp310-cp310-win_amd64.whl.metadata (6.2 kB)
+Requirement already satisfied: scipy>=1.8 in c:\users\administrator\appdata\local\programs\python\python310\lib\site-packages (from openvino-dev) (1.10.1)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\administrator\appdata\local\programs\python\python310\lib\site-packages (from requests>=2.25.1->openvino-dev) (3.1.0)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\administrator\appdata\local\programs\python\python310\lib\site-packages (from requests>=2.25.1->openvino-dev) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\administrator\appdata\local\programs\python\python310\lib\site-packages (from requests>=2.25.1->openvino-dev) (1.26.16)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\administrator\appdata\local\programs\python\python310\lib\site-packages (from requests>=2.25.1->openvino-dev) (2023.5.7)
+Requirement already satisfied: colorama in c:\users\administrator\appdata\local\programs\python\python310\lib\site-packages (from tqdm>=4.54.1->openvino-dev) (0.4.6)
+Downloading openvino_dev-2023.0.1-11005-py3-none-any.whl (5.9 MB)
+   ---------------------------------------- 5.9/5.9 MB 72.4 kB/s eta 0:00:00
+Downloading openvino-2023.0.1-11005-cp310-cp310-win_amd64.whl (27.2 MB)
+   ----                                     2.8/27.2 MB 69.7 kB/s eta 0:05:51
